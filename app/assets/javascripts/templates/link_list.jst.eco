@@ -1,0 +1,5 @@
+<li data-id='<%= @data.id %>'>
+  <h3><a href='<%= @data.url %>'><%= @data.title %></a></h3>
+  <ul class='linkComments'></ul>
+  <button class='addLinkComment'>Add Link Comment</button>
+</li>

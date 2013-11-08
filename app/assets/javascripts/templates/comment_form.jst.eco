@@ -1,0 +1,6 @@
+<form class='newComment'>
+  <input type='text' class='content' name='content' placeholder='Please enter your comment...' />
+  <input type='hidden' name='commentable_id' class='commentable_id' value='<%= @commentable_id %>' />
+  <input type='hidden' name='commentable_type' class='commentable_type' value='<%= @commentable_type %>' />
+  <input type='submit' name='commentSubmit' class='commentSubmit' value='Post Comment' />
+</form>

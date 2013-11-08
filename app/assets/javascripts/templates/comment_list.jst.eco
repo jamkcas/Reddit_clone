@@ -1,0 +1,5 @@
+<li data-id='<%= @comment.id %>'>
+    <p><%= @comment.content %>
+    <ul class='comments'></ul>
+    <button class='addCommentComment'>Add Comment Comment</button>
+</li>

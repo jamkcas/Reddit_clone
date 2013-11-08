@@ -1,1 +1,10 @@
-test
+<% if current_user %>
+  <form class='newLink'>
+    <input type='text' name='title' class='linkTitle' placeholder='Please enter a title...' />
+    <input type='text' name='url' class='linkUrl' placeholder='Please enter a url...' />
+    <input type='hidden' name='linkUser' class='linkUser' value='<%= current_user.id %>' />
+    <input type='submit' name='submit' class='linkSubmit' value='Post Link' />
+  </form>
+<% end %>
+
+<div class='linkList'></div>
